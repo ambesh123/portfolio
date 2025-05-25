@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Certificates from './Certificates';
 
 //const placeholderImg = "/assets/profile_cropped.png";
 const placeholderImg = "https://avatars.githubusercontent.com/u/35375583";
@@ -93,6 +94,7 @@ const App = () => (
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/experience">Experience</Link>
+      <Link to="/certificates">Certificates</Link>
       <Link to="/contact">Contact</Link>
     </nav>
     <Routes>
@@ -100,8 +102,10 @@ const App = () => (
       <Route path="/about" element={<About />} />
       <Route path="/experience" element={<Experience />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/certificates" element={<Certificates />} />
     </Routes>
   </Router>
 );
+
 
 export default App;
