@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-const placeholderImg = "https://via.placeholder.com/150";
+const placeholderImg = "/assets/profile_cropped.png";
 
 const Home = () => (
   <div className="min-h-screen bg-gray-900 text-white p-8">
     <div className="max-w-4xl mx-auto text-center">
-      <img src={placeholderImg} alt="Profile" className="rounded-full w-32 h-32 mx-auto mb-4" />
+      <img src={placeholderImg} alt="Profile" className="rounded-full w-48 h-48 mx-auto mb-4" />
       <h1 className="text-4xl font-bold">Ambesh Tiwari</h1>
       <p className="text-lg mt-2 text-gray-300">Enthusiast Problem Solver & Tech Innovator</p>
       <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
