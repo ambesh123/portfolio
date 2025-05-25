@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Certificates from './Certificates';
 
-//const placeholderImg = "/assets/profile_cropped.png";
-const placeholderImg = "https://avatars.githubusercontent.com/u/35375583";
+const placeholderImg = "/profile_cropped.PNG";
+//const placeholderImg = "https://avatars.githubusercontent.com/u/35375583";
 
 const Home = () => (
   <div className="min-h-screen bg-gray-900 text-white p-8">
